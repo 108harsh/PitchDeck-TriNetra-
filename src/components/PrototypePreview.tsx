@@ -23,7 +23,7 @@ export default function PrototypePreview() {
                 </motion.div>
 
                 <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
-                    <a href="#" target="_blank" rel="noopener noreferrer" className="w-full sm:w-auto">
+                    <a href="https://jagriti-dashboard.onrender.com/" target="_blank" rel="noopener noreferrer" className="w-full sm:w-auto">
                         <Button size="lg" className="h-16 rounded-full px-12 text-lg font-bold bg-white text-black hover:bg-emerald-400 hover:text-black transition-colors w-full">
                             Launch
                             <ExternalLink className="ml-2 w-5 h-5" />
