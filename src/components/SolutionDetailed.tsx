@@ -67,8 +67,12 @@ export default function SolutionDetailed() {
                         className="md:col-span-2 md:row-span-2 bg-white/5 border border-white/10 rounded-3xl p-8 flex flex-col relative overflow-hidden group hover:border-blue-500/30 transition-colors"
                     >
                         <div className="absolute inset-0 bg-blue-500/5 opacity-0 group-hover:opacity-100 transition-opacity" />
-                        <Cpu className="w-12 h-12 text-blue-500 mb-auto" />
-                        <div>
+                        <div className="absolute -right-8 -top-8 w-48 h-48 opacity-50 group-hover:opacity-80 transition-opacity rotate-12">
+                            <img src="/gpu_chip.png" alt="RTX Chip" className="w-full h-full object-contain" />
+                        </div>
+
+                        <Cpu className="w-12 h-12 text-blue-500 mb-auto relative z-10" />
+                        <div className="relative z-10">
                             <h3 className="text-2xl font-bold mb-2">RTX 4050 <br />Optimized</h3>
                             <p className="text-muted-foreground text-sm">
                                 Batch-tuned for 6GB VRAM.
@@ -83,7 +87,7 @@ export default function SolutionDetailed() {
                 {/* Bottom Row */}
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-6">
                     {[
-                        { title: "768px Input", desc: "High-res retraining for small objects.", icon: Eye },
+                        { title: "640px Input", desc: "High-res retraining for small objects.", icon: Eye },
                         { title: "12 Classes", desc: "Custom annotated dataset.", icon: Database },
                         { title: "Real-time UI", desc: "Interactive dashboard.", icon: Layers },
                     ].map((item, i) => (
