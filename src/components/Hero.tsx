@@ -40,9 +40,9 @@ export default function Hero() {
                 <motion.div
                     animate={{ rotate: 360 }}
                     transition={{ duration: 60, repeat: Infinity, ease: "linear" }}
-                    className="absolute inset-0 flex items-center justify-center opacity-20"
+                    className="absolute inset-0 flex items-center justify-center opacity-60 mix-blend-screen"
                 >
-                    <img src="/trinetra_eye.png" alt="TriNetra Symbol" className="w-[800px] h-auto object-contain blur-sm" />
+                    <img src="/trinetra_eye.png" alt="TriNetra Symbol" className="w-[800px] h-auto object-contain brightness-150" />
                 </motion.div>
                 <div className="absolute inset-0 bg-[linear-gradient(to_bottom,transparent_80%,#050505_100%)]" />
             </motion.div>
