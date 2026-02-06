@@ -40,7 +40,7 @@ export default function FloatingNavbar() {
                     <div className="p-1.5 bg-emerald-500/10 rounded-full border border-emerald-500/20 group-hover:bg-emerald-500/20 transition-colors">
                         <Crosshair className="w-4 h-4 text-emerald-500" />
                     </div>
-                    <span className="font-bold text-sm tracking-widest text-white/90 group-hover:text-white transition-colors">SHER // SYS</span>
+                    <span className="font-bold text-sm tracking-widest text-white/90 group-hover:text-white transition-colors">Home</span>
                 </div>
 
                 {/* Desktop Links */}

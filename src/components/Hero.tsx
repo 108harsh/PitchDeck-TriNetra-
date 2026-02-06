@@ -37,6 +37,9 @@ export default function Hero() {
                 className="absolute inset-0 z-0"
             >
                 <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(255,255,255,0.03)_0%,transparent_70%)] opacity-70" />
+                <div className="absolute inset-0 flex items-center justify-center opacity-10">
+                    <img src="/trinetra_eye.png" alt="TriNetra Symbol" className="w-[800px] h-auto object-contain blur-sm" />
+                </div>
                 <div className="absolute inset-0 bg-[linear-gradient(to_bottom,transparent_80%,#050505_100%)]" />
             </motion.div>
 
@@ -52,7 +55,7 @@ export default function Hero() {
                     className="flex justify-center mb-8"
                 >
                     <span className="px-3 py-1 rounded-full bg-white/5 border border-white/10 text-[10px] md:text-xs font-mono uppercase tracking-[0.3em] text-white/50">
-                        Team SHER // Project 2026
+                        Team SHER presents
                     </span>
                 </motion.div>
 
@@ -62,9 +65,18 @@ export default function Hero() {
                     transition={{ duration: 1, ease: [0.16, 1, 0.3, 1] }}
                     className="text-6xl md:text-9xl font-black tracking-tighter text-white leading-[0.9]"
                 >
-                    VISUAL <br />
-                    <span className="text-transparent bg-clip-text bg-gradient-to-b from-white via-white to-white/40">INTELLIGENCE</span>
+                    HELLO <br />
+                    <span className="text-transparent bg-clip-text bg-gradient-to-b from-white via-white to-white/40">JUDGES</span>
                 </motion.h1>
+
+                <motion.h2
+                    initial={{ opacity: 0 }}
+                    animate={{ opacity: 1 }}
+                    transition={{ delay: 0.4, duration: 1 }}
+                    className="text-2xl md:text-4xl font-mono uppercase tracking-widest text-emerald-500 pt-4"
+                >
+                    TRINETRA - The Third Eye
+                </motion.h2>
 
                 <motion.p
                     initial={{ opacity: 0 }}
