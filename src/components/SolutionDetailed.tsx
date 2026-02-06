@@ -5,7 +5,7 @@ import { Cpu, Database, Eye, Layers, ScanEye, Zap } from "lucide-react";
 
 export default function SolutionDetailed() {
     return (
-        <section id="solution" className="py-32 px-4 bg-background border-t border-white/5 bg-[radial-gradient(ellipse_at_top,rgba(16,185,129,0.05),transparent_50%)]">
+        <section id="architecture" className="py-32 px-4 bg-background border-t border-white/5 bg-[radial-gradient(ellipse_at_top,rgba(16,185,129,0.05),transparent_50%)]">
             <div className="max-w-7xl mx-auto">
 
                 {/* Header */}

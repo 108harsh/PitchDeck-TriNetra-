@@ -2,6 +2,7 @@ import BusinessSocialImpact from "@/components/BusinessSocialImpact";
 import FloatingNavbar from "@/components/FloatingNavbar";
 import Hero from "@/components/Hero";
 import ProblemContext from "@/components/ProblemContext";
+import OurSolution from "@/components/OurSolution";
 import PrototypePreview from "@/components/PrototypePreview";
 import SolutionDetailed from "@/components/SolutionDetailed";
 
@@ -16,7 +17,10 @@ export default function Home() {
       {/* 2. Core Problem (Real World Focus) */}
       <ProblemContext />
 
-      {/* 3. Our Solution (Detailed + Impact) */}
+      {/* 3. Our Solution (Features) */}
+      <OurSolution />
+
+      {/* 4. System Architecture */}
       <SolutionDetailed />
 
       {/* 4. Business Idea & Social Impact */}
