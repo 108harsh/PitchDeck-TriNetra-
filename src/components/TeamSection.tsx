@@ -104,7 +104,6 @@ function TeamCard({ member, idx }: { member: any, idx: number }) {
                             <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-transparent to-transparent" />
                             <div className="absolute bottom-0 left-0 p-6">
                                 <h3 className="text-xl font-bold text-white mb-1">{member.name}</h3>
-                                <p className="text-emerald-500 text-xs uppercase tracking-widest font-mono">{member.role}</p>
                             </div>
                         </div>
                     ) : (
@@ -112,7 +111,6 @@ function TeamCard({ member, idx }: { member: any, idx: number }) {
                             <User className="w-16 h-16 text-white/20" />
                             <div className="text-center">
                                 <h3 className="text-xl font-bold text-white mb-1">{member.name}</h3>
-                                <p className="text-emerald-500 text-xs uppercase tracking-widest font-mono">{member.role}</p>
                             </div>
                         </div>
                     )}
