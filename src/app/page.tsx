@@ -27,11 +27,11 @@ export default function Home() {
       {/* 5. Business Idea & Social Impact */}
       <BusinessSocialImpact />
 
-      {/* 6. Team Section */}
-      <TeamSection />
-
-      {/* 7. Dashboard, Prototype & Datasets */}
+      {/* 6. Dashboard, Prototype & Datasets */}
       <PrototypePreview />
+
+      {/* 7. Team Section */}
+      <TeamSection />
     </main>
   );
 }

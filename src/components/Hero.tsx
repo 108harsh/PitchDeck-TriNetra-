@@ -37,13 +37,6 @@ export default function Hero() {
                 className="absolute inset-0 z-0"
             >
                 <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(255,255,255,0.03)_0%,transparent_70%)] opacity-70" />
-                <motion.div
-                    animate={{ rotate: 360 }}
-                    transition={{ duration: 60, repeat: Infinity, ease: "linear" }}
-                    className="absolute inset-0 flex items-center justify-center opacity-60 mix-blend-screen"
-                >
-                    <img src="/trinetra_eye.png" alt="TriNetra Symbol" className="w-[800px] h-auto object-contain brightness-150" />
-                </motion.div>
                 <div className="absolute inset-0 bg-[linear-gradient(to_bottom,transparent_80%,#050505_100%)]" />
             </motion.div>
 
