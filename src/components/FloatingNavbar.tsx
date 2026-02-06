@@ -11,6 +11,7 @@ const navLinks = [
     { name: "Features", href: "#features" },
     { name: "Tech", href: "#architecture" },
     { name: "Impact", href: "#impact" },
+    { name: "Team", href: "#team" },
     { name: "Live Demo", href: "#demo" },
 ];
 

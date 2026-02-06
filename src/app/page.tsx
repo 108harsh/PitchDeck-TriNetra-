@@ -5,6 +5,7 @@ import ProblemContext from "@/components/ProblemContext";
 import OurSolution from "@/components/OurSolution";
 import PrototypePreview from "@/components/PrototypePreview";
 import SolutionDetailed from "@/components/SolutionDetailed";
+import TeamSection from "@/components/TeamSection";
 
 export default function Home() {
   return (
@@ -23,10 +24,13 @@ export default function Home() {
       {/* 4. System Architecture */}
       <SolutionDetailed />
 
-      {/* 4. Business Idea & Social Impact */}
+      {/* 5. Business Idea & Social Impact */}
       <BusinessSocialImpact />
 
-      {/* 5. Dashboard, Prototype & Datasets */}
+      {/* 6. Team Section */}
+      <TeamSection />
+
+      {/* 7. Dashboard, Prototype & Datasets */}
       <PrototypePreview />
     </main>
   );
