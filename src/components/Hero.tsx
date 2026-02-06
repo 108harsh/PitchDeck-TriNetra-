@@ -37,9 +37,13 @@ export default function Hero() {
                 className="absolute inset-0 z-0"
             >
                 <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(255,255,255,0.03)_0%,transparent_70%)] opacity-70" />
-                <div className="absolute inset-0 flex items-center justify-center opacity-10">
+                <motion.div
+                    animate={{ rotate: 360 }}
+                    transition={{ duration: 60, repeat: Infinity, ease: "linear" }}
+                    className="absolute inset-0 flex items-center justify-center opacity-20"
+                >
                     <img src="/trinetra_eye.png" alt="TriNetra Symbol" className="w-[800px] h-auto object-contain blur-sm" />
-                </div>
+                </motion.div>
                 <div className="absolute inset-0 bg-[linear-gradient(to_bottom,transparent_80%,#050505_100%)]" />
             </motion.div>
 
@@ -48,16 +52,6 @@ export default function Hero() {
                 style={{ y: textY, opacity }}
                 className="relative z-10 max-w-5xl space-y-6"
             >
-                <motion.div
-                    initial={{ opacity: 0, y: 20 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    transition={{ duration: 0.8 }}
-                    className="flex justify-center mb-8"
-                >
-                    <span className="px-3 py-1 rounded-full bg-white/5 border border-white/10 text-[10px] md:text-xs font-mono uppercase tracking-[0.3em] text-white/50">
-                        Team SHER presents
-                    </span>
-                </motion.div>
 
                 <motion.h1
                     initial={{ opacity: 0, scale: 0.95 }}
@@ -69,11 +63,22 @@ export default function Hero() {
                     <span className="text-transparent bg-clip-text bg-gradient-to-b from-white via-white to-white/40">JUDGES</span>
                 </motion.h1>
 
+                <motion.div
+                    initial={{ opacity: 0, y: 20 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    transition={{ delay: 0.3, duration: 0.8 }}
+                    className="flex justify-center py-4"
+                >
+                    <span className="px-4 py-1.5 rounded-full bg-white/5 border border-white/10 text-xs md:text-sm font-mono uppercase tracking-[0.3em] text-white/70">
+                        Team SHER presents
+                    </span>
+                </motion.div>
+
                 <motion.h2
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
-                    transition={{ delay: 0.4, duration: 1 }}
-                    className="text-2xl md:text-4xl font-mono uppercase tracking-widest text-emerald-500 pt-4"
+                    transition={{ delay: 0.5, duration: 1 }}
+                    className="text-2xl md:text-4xl font-mono uppercase tracking-widest text-emerald-500"
                 >
                     TRINETRA - The Third Eye
                 </motion.h2>
