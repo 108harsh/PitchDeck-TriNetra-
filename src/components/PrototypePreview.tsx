@@ -29,7 +29,7 @@ export default function PrototypePreview() {
                             <ExternalLink className="ml-2 w-5 h-5" />
                         </Button>
                     </a>
-                    <a href="#" target="_blank" rel="noopener noreferrer" className="w-full sm:w-auto">
+                    <a href="https://dashboardtrinetra.streamlit.app/" target="_blank" rel="noopener noreferrer" className="w-full sm:w-auto">
                         <Button variant="outline" size="lg" className="h-16 rounded-full px-12 text-lg bg-transparent border-white/20 text-white hover:bg-white/10 w-full">
                             View Dashboard
                             <ArrowRight className="ml-2 w-5 h-5" />
