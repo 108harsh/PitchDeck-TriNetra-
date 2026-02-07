@@ -29,7 +29,7 @@ const team = [
     {
         name: "Nishad Hirudkar",
         role: "Developer",
-        image: null, // Empty for now
+        image: "/team/nishad.jpg",
         links: {
             github: "https://github.com/nishad8109",
             linkedin: "https://www.linkedin.com/in/nishad-hirudkar-4676512b2/",
